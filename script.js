@@ -29,7 +29,7 @@ reg.addEventListener("submit", function(e) {
           alert("The length is not the same")
 
     }
-  if (pass1 === pass2) {
+  if (pass1.length==8 && pass2.length==8) {
     // success.style.visibility = "visible";
     success.innerHTML = "Successful";
     success.style.color = "green";
