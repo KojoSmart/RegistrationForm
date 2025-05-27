@@ -1,89 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-}
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10px;
-  min-height: 90vh;
-  background: #eee;
-}
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #eee;
+    }
 
-form{
-    padding: 25px;
-    background: #fff;
-    max-width: 700px;
-    width: 100%;
-    border-radius: 9px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
-    height: 600px;
-    margin-top: 20px;
-}
+    form {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 8px 5 rgba(0, 0, 0, 0.05);
+    }
 
-form h2 {
-  font-size: 27px;
-  text-align: center;
-  margin: 0px 0 30px;
-}
+    .form-group {
+      margin-bottom: 15px;
+    }
 
-form .form-group {
-  margin-bottom: 15px;
-  position: relative;
-}
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 25px;
+    }
 
-form label {
-  display: block;
-  font-size: 15px;
-  margin-bottom: 7px;
-}
+    input, select, button {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
 
-form input,
-form select {
-  height: 45px;
-  padding: 10px;
-  width: 100%;
-  font-size: 15px;
-  outline: none;
-  background: #fff;
-  border-radius: 3px;
-  border: 1px solid #bfbfbf;
-}
+    .message {
+      margin-bottom: 15px;
+      font-weight: bold;
+      display: none;
+    }
+    button{
+        background-color: burlywood;
+        font-size: 25px;
+        border:none;
+        border-radius: 9px;
+    }
 
-form input:focus,
-form select:focus {
-  border-color: #9a9a9a;
-}
-
-form small {
-  font-size: 14px;
-  margin-top: 5px;
-  display: block;
-  color: #f91919;
-}
-
-
-.submit-btn {
-  margin-top: 20px;
-}
-.submit-btn input {
-  color: white;
-  border: none;
-  height: auto;
-  font-size: 16px;
-  padding: 13px 0;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: 500;
-  text-align: center;
-  background: blue;
-  transition: 0.2s ease;
-}
-.submit-btn input:hover {
-  background: saddlebrown;
-}
+    button:hover{
+        background-color: coral;
+    }
